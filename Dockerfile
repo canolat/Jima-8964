@@ -1,3 +1,5 @@
-FROM hasura/graphql-engine:v2.0.2
+FROM ubuntu:latest
 
-CMD graphql-engine serve --server-port $PORT
+CMD touch ~/hi
+
+ENV LANG C.UTF-8
